@@ -1,6 +1,5 @@
-import React from "react";
 import { Box, Tab, Tabs, Typography } from "@mui/material";
-import { useState } from "react";
+import React, { useState } from "react";
 
 const useStyles = {
     inactiveTab:{

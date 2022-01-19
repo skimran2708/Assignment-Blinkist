@@ -1,4 +1,3 @@
-import React from "react";
 import { Grid } from "@mui/material";
 import ExploreItem from "../ExploreItem";
 import entrepreneurshipIcon from "../../../../assets/icons/EntrepreneurshipIcon.png";
@@ -20,7 +19,7 @@ import moneyIcon from "../../../../assets/icons/MoneyIcon.png";
 import relationshipIcon from "../../../../assets/icons/RelationshipIcon.png";
 import educationIcon from "../../../../assets/icons/EducationIcon.png";
 import { useNavigate } from "react-router-dom";
-import { useContext } from "react";
+import React, { useContext } from "react";
 import { UserContext } from "../../../../App"
 
 const ExploreList = ({open}:any) => {

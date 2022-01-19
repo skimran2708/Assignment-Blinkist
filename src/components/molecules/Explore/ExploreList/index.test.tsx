@@ -5,7 +5,7 @@ import entrepreneurshipIcon from "../../../../assets/icons/EntrepreneurshipIcon.
 import React from "react"
 import "@testing-library/jest-dom"
 
-test("Test - ExploreList", () => {
+test("Test - ExploreList Open", () => {
     render(<MemoryRouter><ExploreList open="1" /></MemoryRouter>)
 
     const button1 = screen.getByRole("button",{name:/Nature/i});
@@ -14,4 +14,8 @@ test("Test - ExploreList", () => {
     expect(button1).toHaveTextContent("Nature & Environment");
     expect(button2).toHaveTextContent("Productivity");
     expect(button3).toHaveTextContent("Career & Success");
+})
+
+test("Test - ExploreList Close", () => {
+    render(<MemoryRouter><ExploreList open="0" /></MemoryRouter>)
 })

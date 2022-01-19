@@ -17,7 +17,7 @@ const TabPanel = (props:panelProps) =>{
         <>
             <Grid container width='912px' rowGap='30px' columnGap='27px' padding='30px 0px 111px 0px' >
                 {books.map(book => 
-                    <BookCard cover={book.cover} title={book.title} author={book.author} time={book.time} people={book.people} button={book.button} onClicked={()=>{}}/>
+                    <BookCard cover={book.cover} title={book.title} author={book.author} time={book.time} people={book.people} button={book.button} onClicked={()=>{console.log()}}/>
                     )}
             </Grid>
 
