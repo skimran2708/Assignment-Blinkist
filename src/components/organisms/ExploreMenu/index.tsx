@@ -2,6 +2,7 @@ import { Grid } from "@mui/material";
 import { useState } from "react";
 import ExploreBar from "../../molecules/Explore/ExploreBar";
 import ExploreList from "../../molecules/Explore/ExploreList";
+import React from "react";
 
 const styles = {
     container:{

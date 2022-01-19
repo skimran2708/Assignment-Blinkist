@@ -1,6 +1,7 @@
 import { Grid, Typography } from "@mui/material";
 import personIcon from "../../../assets/icons/PersonIcon.png";
 import Icon from "../../atoms/Icon";
+import React from "react";
 
 const useStyles = {
     style:{

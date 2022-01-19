@@ -1,8 +1,7 @@
 import { Grid, Typography } from "@mui/material";
 import BookDetailsTab from "../../components/molecules/BookDetailsTab";
 import BookInfo from "../../components/organisms/BookInfo";
-
-
+import React from "react";
 
 const BookDetailsPage = () => {
 

@@ -6,7 +6,7 @@ import FinishedButton from "../../atoms/Buttons/FinishedButton";
 import KindleButton from "../../atoms/Buttons/KindleButton";
 import ReadNowButton from "../../atoms/Buttons/ReadNowButton";
 import TimeRead from "../../molecules/TimeRead";
-
+import React from "react";
 
 
 const BookInfo = () => {

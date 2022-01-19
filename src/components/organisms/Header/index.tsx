@@ -1,5 +1,4 @@
 import { Grid } from "@mui/material";
-import { makeStyles } from "@mui/styles";
 import React from "react";
 import searchIcon from "../../../assets/icons/SearchIcon.png";
 import logo from "../../../assets/images/BlinkistLogo.png";

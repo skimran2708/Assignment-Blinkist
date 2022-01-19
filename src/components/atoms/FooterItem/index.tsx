@@ -1,4 +1,5 @@
 import { SxProps, Typography } from "@mui/material";
+import React from "react";
 
 const typo:SxProps = {
     fontWeight:"normal",

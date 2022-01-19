@@ -1,6 +1,7 @@
 import { Grid } from "@mui/material";
 import FooterItem from "../../atoms/FooterItem";
 import NavItem from "../NavItem";
+import React from "react";
 
 function NavSection() {
     return(

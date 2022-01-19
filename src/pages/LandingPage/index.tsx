@@ -1,5 +1,6 @@
 import { Grid, Typography } from "@mui/material";
 import TabsBar from "../../components/molecules/TabsBar";
+import React from "react";
 
 const styles = {
     container:{

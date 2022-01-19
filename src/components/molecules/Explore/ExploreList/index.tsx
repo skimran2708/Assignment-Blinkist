@@ -1,3 +1,4 @@
+import React from "react";
 import { Grid } from "@mui/material";
 import ExploreItem from "../ExploreItem";
 import entrepreneurshipIcon from "../../../../assets/icons/EntrepreneurshipIcon.png";

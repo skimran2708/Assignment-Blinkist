@@ -2,6 +2,7 @@ import { Grid } from "@mui/material";
 import Banner from "../../components/molecules/Banner";
 import Blinks from "../../components/molecules/Blinks";
 import SearchBar from "../../components/organisms/SearchBar";
+import React from "react";
 
 const styles = {
     container:{

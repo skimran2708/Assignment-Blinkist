@@ -1,3 +1,4 @@
+import React from "react";
 import { Grid, SxProps, Typography } from "@mui/material";
 import reader from "../../../assets/images/Reader.png";
 import Image from "../../atoms/Image";

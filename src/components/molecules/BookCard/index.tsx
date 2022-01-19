@@ -1,3 +1,4 @@
+import React from "react";
 import { Box, Button, Card, CardContent, CardMedia, Grid, Typography } from "@mui/material";
 import TimeRead from "../TimeRead";
 import PeopleRead from "../PeopleRead";

@@ -2,6 +2,7 @@ import { Grid, Typography } from "@mui/material";
 import logo from "../../../assets/images/BlinkistLogo.png";
 import Image from "../../atoms/Image";
 import NavSection from "../NavSection";
+import React from "react";
 
 const useStyles = {
     container:{

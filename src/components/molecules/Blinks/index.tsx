@@ -2,6 +2,7 @@ import { Grid, SxProps, Typography } from "@mui/material";
 import BookCard from "../BookCard";
 import { trendingBlinks, justAddedBlinks, audioBlinks } from "../../../db";
 import { useNavigate } from "react-router-dom";
+import React from "react";
 
 const styles:SxProps = {
     fontStyle:'normal',

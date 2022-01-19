@@ -1,6 +1,7 @@
 import { InputAdornment, TextField } from "@mui/material";
 import searchIcon from "../../../assets/icons/SearchIcon.png";
 import Icon from "../../atoms/Icon";
+import React from "react";
 
 const SearchBar = () => {
     return (

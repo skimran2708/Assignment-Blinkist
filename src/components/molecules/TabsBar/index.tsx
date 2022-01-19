@@ -1,6 +1,7 @@
 import { Box, Tab, Tabs } from "@mui/material";
 import { useState } from "react";
 import TabPanel from "../TabPanel";
+import React from "react";
 
 const useStyles = {
     inactiveTab:{

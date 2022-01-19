@@ -1,3 +1,5 @@
+import React from "react"
+import "@testing-library/jest-dom"
 import { render, screen } from "@testing-library/react";
 import book4 from "../../../assets/images/cover4.png"
 import BookCard from ".";
@@ -24,6 +26,6 @@ test("Test - BookCard", () => {
   expect(author).toBeInTheDocument();
   expect(readTime).toBeInTheDocument();
   expect(people).toBeInTheDocument();
-  expect(cover).toHaveAttribute("src", "cover4.png");
+  expect(cover).toHaveAttribute("src", "test-file-stub");
   expect(btn).toHaveTextContent("Add to library");
 });

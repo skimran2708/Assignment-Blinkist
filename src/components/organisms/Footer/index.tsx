@@ -1,6 +1,6 @@
 import { Grid, Typography } from "@mui/material";
-import { makeStyles } from "@mui/styles";
 import FooterFrame from "../../molecules/FooterFrame";
+import React from "react";
 
 const useStyles = {
     container:{

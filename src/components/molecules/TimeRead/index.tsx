@@ -1,6 +1,7 @@
 import { Grid, Typography } from "@mui/material";
 import timeIcon from "../../../assets/icons/TimeIcon.png";
 import Icon from "../../atoms/Icon";
+import React from "react";
 
 const useStyles = {
     typo:{
