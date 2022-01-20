@@ -15,5 +15,5 @@ const Template: ComponentStory<typeof ExploreList> = (args) => <ExploreList {...
 
 export const Explore_List = Template.bind({});
 Explore_List.args = {
-    open:()=>{}
+    open:"1"
 };

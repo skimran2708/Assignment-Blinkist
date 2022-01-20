@@ -2,11 +2,11 @@ import { Grid } from "@mui/material";
 import React from "react";
 import searchIcon from "../../../assets/icons/SearchIcon.png";
 import logo from "../../../assets/images/BlinkistLogo.png";
-import ExploreButton from "../../atoms/Buttons/ExploreButton";
+import ExploreButton from "../../molecules/Explore/ExploreButton";
 import Icon from "../../atoms/Icon";
 import Image from "../../atoms/Image";
 import AvatarNavItem from "../../molecules/AvatarNavItem";
-import NavItem from "../../molecules/NavItem";
+import NavItem from "../../atoms/NavItem";
 
 const useStyles = {
     container: {
@@ -31,7 +31,7 @@ function Header() {
                     <ExploreButton /> 
                 </Grid>
                 <Grid item>
-                    <NavItem name="My Library" icon={false} />
+                    <NavItem text="My Library" type="bold" />
                 </Grid>
                 <Grid item marginLeft='auto'>
                     <AvatarNavItem user='S' />

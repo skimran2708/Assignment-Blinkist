@@ -6,6 +6,7 @@ import moreIcon from "../../../assets/icons/MoreIcon.png";
 import AddIcon from '@mui/icons-material/Add';
 import { makeStyles } from "@mui/styles";
 import clsx from 'clsx';
+import Buttons from "../../atoms/Buttons";
 
 const useStyles = makeStyles({
     cardStyle:{
@@ -85,9 +86,7 @@ function BookCard(props: bookProps){
     {
         bottomMargin='11px'
         cardBottom=(
-            <Button variant="text" startIcon={<AddIcon />} onClick={()=>props.onClicked(props.title)} sx={{fontSize:'16px', width:'284px', height:'52px', textTransform:'inherit', marginLeft:'-16px', border:'1px solid #E1ECFC', borderRadius: '0px 0px 8px 8px', color:'#0365F2', '&:hover':{color: '#FFFFFF',backgroundColor: '#0365F2'}}}>
-                Add to library
-            </Button>
+            <Buttons variant="text" name="Add to library" startIcon={<AddIcon />} onClicked={()=>props.onClicked(props.title)} buttonStyle={{fontSize:'16px', width:'284px', height:'52px', textTransform:'inherit', marginLeft:'-16px', border:'1px solid #E1ECFC', borderRadius: '0px 0px 8px 8px', color:'#0365F2', '&:hover':{color: '#FFFFFF',backgroundColor: '#0365F2'}}} />
         )
     }
     else if(props.button==="Read again" || props.button==="Finished")

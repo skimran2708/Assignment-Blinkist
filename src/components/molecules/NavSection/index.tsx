@@ -1,6 +1,5 @@
 import { Grid } from "@mui/material";
-import FooterItem from "../../atoms/FooterItem";
-import NavItem from "../NavItem";
+import NavItem from "../../atoms/NavItem";
 import React from "react";
 
 function NavSection() {
@@ -8,26 +7,26 @@ function NavSection() {
         <>
             <Grid container width='542px' height='224px' justifyContent='space-between'>
                 <Grid item height='184px'>
-                    <NavItem name="Editorial" icon={false} />
-                    <FooterItem text="Book lists" />
-                    <FooterItem text="What is Nonfiction?" />
-                    <FooterItem text="What to read next?" />
-                    <FooterItem text="Benefits of reading" />
+                    <NavItem text="Editorial" type="bold" />
+                    <NavItem text="Book lists" type="normal" />
+                    <NavItem text="What is Nonfiction?" type="normal" />
+                    <NavItem text="What to read next?" type="normal" />
+                    <NavItem text="Benefits of reading" type="normal" />
                 </Grid>
                 <Grid item height='224px'>
-                    <NavItem name="Useful Links" icon={false} />
-                    <FooterItem text="Pricing" />
-                    <FooterItem text="Blinkist business" />
-                    <FooterItem text="Gift cards" />
-                    <FooterItem text="Blinkist magaine" />
-                    <FooterItem text="Contact & help" />
+                    <NavItem text="Useful Links" type="bold" />
+                    <NavItem text="Pricing" type="normal" />
+                    <NavItem text="Blinkist business" type="normal" />
+                    <NavItem text="Gift cards" type="normal" />
+                    <NavItem text="Blinkist magaine" type="normal" />
+                    <NavItem text="Contact & help" type="normal" />
                 </Grid>
                 <Grid item height='184px' >
-                    <NavItem name="Comapny" icon={false} />
-                    <FooterItem text="About lists" />
-                    <FooterItem text="Careers" />
-                    <FooterItem text="Partners" />
-                    <FooterItem text="Code of Conduct" /> 
+                    <NavItem text="Comapny" type="bold" />
+                    <NavItem text="About lists" type="normal" />
+                    <NavItem text="Careers" type="normal" />
+                    <NavItem text="Partners" type="normal" />
+                    <NavItem text="Code of Conduct" type="normal" /> 
                 </Grid>
             </Grid>
         </>

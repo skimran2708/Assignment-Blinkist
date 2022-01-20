@@ -10,14 +10,14 @@ export default {
 
 const Template: ComponentStory<typeof NavItem> = (args) => <NavItem {...args} />;
 
-export const Explore = Template.bind({});
-Explore.args = {
-  name:'Explore',
-  icon:true
+export const NavItem_bold = Template.bind({});
+NavItem_bold.args = {
+  text:'My Library',
+  type:'bold'
 };
 
-export const MyLibrary = Template.bind({});
-MyLibrary.args = {
-  name:'My Library',
-  icon:true
+export const NavItem_normal = Template.bind({});
+NavItem_normal.args = {
+  text:'Pricing',
+  type:'normal'
 };

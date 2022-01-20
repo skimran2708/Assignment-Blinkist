@@ -2,11 +2,10 @@ import { Card, CardMedia, Grid, Typography } from "@mui/material";
 import { useNavigate, useParams } from "react-router-dom";
 import book11 from "../../../assets/images/cover11.png";
 import { currentlyReading, finishedReading } from "../../../db";
-import FinishedButton from "../../atoms/Buttons/FinishedButton";
-import KindleButton from "../../atoms/Buttons/KindleButton";
-import ReadNowButton from "../../atoms/Buttons/ReadNowButton";
 import TimeRead from "../../molecules/TimeRead";
 import React from "react";
+import Buttons from "../../atoms/Buttons";
+import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 
 
 const BookInfo = () => {
@@ -55,13 +54,13 @@ const BookInfo = () => {
                                 <Grid item sx={{ marginTop: "80px" }}>
                                     <Grid container columnSpacing="24px" justifyContent='left' >
                                         <Grid item>
-                                            <ReadNowButton />
+                                            <Buttons name="Read now" variant="outlined" buttonStyle={{fontSize:'16px',fontWeight:'500',width:'122px',height:'44px',color:'#22C870',borderColor:'black',textTransform:'none'}} />
                                         </Grid>
                                         <Grid item>
-                                            <FinishedButton onClicked={onAdd} />
+                                            <Buttons name="Finished Reading" variant="contained" buttonStyle={{fontSize:'16px',fontWeight:'500',width:'170px',height:'44px',color:'#03314B', textTransform:'none','&:hover': { backgroundColor: '#2CE080'},boxShadow:'none'}} onClicked={onAdd} />
                                         </Grid>
                                         <Grid item>
-                                            <KindleButton />
+                                            <Buttons name="Send to Kindle" variant="text" buttonStyle={{fontSize:'16px',width:'151px',height:'44px',color:'#6D787E', padding:'6px',textTransform:'none'}} endIcon={<ArrowForwardIcon />} />
                                         </Grid>
                                     </Grid>
                                 </Grid>

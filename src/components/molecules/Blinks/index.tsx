@@ -25,14 +25,17 @@ const Blinks = () =>{
         <>
         {categoryType.map(books => (
             <>
-                <Grid item marginTop='80px'>
-                    <Typography variant="h3" sx={styles}>{categoryName[index++]}</Typography>
-                </Grid>  
+                <Grid item key={index} marginTop='80px'>
+                    <Typography variant="h3" sx={styles}>{categoryName[index]}</Typography>
+                </Grid> 
                 <Grid container width='912px' rowGap='30px' paddingTop='30px' justifyContent='space-between'>          
                     {books.map(book => 
-                        <BookCard cover={book.cover} title={book.title} author={book.author} time={book.time} people={book.people} button={book.button} onClicked={onClick}/>
+                        <Grid item key={categoryName[index]+book.title}>
+                            <BookCard cover={book.cover} title={book.title} author={book.author} time={book.time} people={book.people} button={book.button} onClicked={onClick}/>
+                        </Grid>
                     )}
                 </Grid>
+                {console.log(index++)} 
             </>
         ))}
         </>

@@ -24,7 +24,7 @@ const styles = {
         left:0,
         height:'auto',
         backgroundColor:'rgba(157, 163, 166, 0.45)',
-        zIndex:1000
+        zIndex:900
     },
 
     selected:{
