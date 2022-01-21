@@ -6,7 +6,7 @@ import React from "react";
 const SearchBar = () => {
     return (
         <>
-            <TextField variant="standard" placeholder="Search by title or author "
+            <TextField variant="standard" placeholder="Search by title or author"
                 InputProps={{
                     startAdornment: (
                         <InputAdornment position="start" >
